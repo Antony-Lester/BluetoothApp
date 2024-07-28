@@ -1,0 +1,115 @@
+import {Dimensions, StyleSheet} from 'react-native';
+const {width, height} = Dimensions.get('window');
+export const styles = StyleSheet.create({
+  scrollView: {
+    backgroundColor: '#f3f3f3',
+    margin: '2%',
+    borderRadius: 10,
+  },
+  body: {
+    backgroundColor: 'black',
+    borderRadius: 10,
+    overflow: 'hidden',
+    padding: '2%',
+  },
+  sectionContainer: {
+    marginTop: 32,
+    paddingHorizontal: 24,
+  },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  centerText: {textAlign: 'center'},
+  container: {
+    flex: 1,
+    backgroundColor: 'black',
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: height * 0.005,
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+    backgroundColor: 'black',
+  },
+  screenContainer: {
+    flex: 1,
+    marginBottom: height * 0.099,
+    borderWidth: 4,
+    borderColor: 'red',
+    borderRadius: 60,
+    padding: width * 0.02,
+    margin: '2%',
+    backgroundColor: 'white',
+  },
+  button: {
+    paddingVertical: height * 0.02,
+    paddingHorizontal: width * 0.05,
+    width: width * 0.3,
+    alignItems: 'center',
+    backgroundColor: 'white',
+    borderWidth: 4,
+    borderColor: 'red',
+    borderRadius: 40,
+  },
+  buttonText: {
+    color: 'red',
+    fontSize: width * 0.04,
+    fontWeight: 'bold',
+  },
+  deviceItem: {
+    padding: 15,
+    marginVertical: 8,
+    marginHorizontal: 16,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  deviceName: {
+    fontSize: 18,
+    fontWeight: '500',
+    color: '#333',
+  },
+  deviceId: {
+    fontSize: 14,
+    color: '#666',
+    marginTop: 4,
+  },
+  list: {
+    paddingBottom: 20,
+  },
+  deviceDetails: {
+    marginBottom: 20,
+    padding: 15,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  deviceDetailsTitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 10,
+  },
+  deviceDetailsText: {
+    fontSize: 16,
+    color: '#666',
+  },
+});
