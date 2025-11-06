@@ -16,7 +16,7 @@
     "@react-navigation/native": "^6.1.18",
     "react": "18.2.0",
     "react-icons": "^5.2.1",
-    "react-native": "0.74.3",
+    "react-native": "0.82.1",
     "react-native-ble-manager": "^11.5.5",
     "react-native-ble-plx": "^3.2.1",
     "react-native-permissions": "^4.1.5",
